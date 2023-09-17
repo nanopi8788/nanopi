@@ -1,0 +1,33 @@
+body{
+    font-family: "CapieN Medium";
+}
+
+li{
+    list-style: none;
+}
+
+.twitter{
+    padding-top: 20px;
+}
+
+.insta{
+    padding-bottom: 20px;
+}
+
+.header{
+    background-color: #ff80bf;
+    height: 90px;
+}
+
+.header-logo{
+    float: left;
+    font-size: 40px;
+    padding: 20px 40px 20px 40px;
+}
+
+.header-logo span{
+    color:rgb(255, 255, 255)
+}
+
+
+

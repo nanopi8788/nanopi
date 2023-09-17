@@ -14,7 +14,7 @@
             <div class="header-list">
 
                 <ul>
-                    <a href="https://github.com/nanopi8788/nanopi/blob/main/qKfOMZvF.png?raw=true"><li class="twitter">ついった</li></a>
+                    <a href="c:\Users\komac\Desktop\qKfOMZvF.png"><li class="twitter">ついった</li></a>
                    <a href="https://www.instagram.com/ymtnkm8788/?hl=ja"><li class="insta">いんすた</li></a>
                 </ul>
 
@@ -27,37 +27,46 @@
         <div class="main">
 
             <div class="contents-item">
-                <img src="https://github.com/nanopi8788/nanopi/blob/main/Web%20%E3%82%AD%E3%83%A3%E3%83%97%E3%83%81%E3%83%A3_28-7-2023_17236_.png?raw=true">
+                <img src="c:\Users\komac\Desktop\Web キャプチャ_28-7-2023_17236_.png">
             </div>
 
         </div>
 
         <div class="contact-form">
-            <h3 class="section-title">おたよりコーナー</h3>
-            <p>おなまえ（必須）</p>
-          
-            <input>
-            
-            <p>おたより（必須）</p>
-            
-            <textarea></textarea>
-            
-            <p>内容は問わないので 送って</p>
-       
-            <input class="contact-submit" type="submit" value="おくる">
-            
-          </div>
+
+
+            <form action="https://api.staticforms.xyz/submit" method="post">
+              <p>おなまえ</p>
+                <input type="text" name="name" placeholder="ラジオネーム">
+              <p>たいとるorコーナー名</p>
+                <input type="text" name="email" placeholder="タイトル" />
+              <p>おたより</p>
+                <textarea name="message"></textarea>
+
+              <!----
+              <p>画像</p>
+                <input type="file" name="file" accept="image/*"> 
+                ---->
+              
+                <input type="text" name="honeypot" style="display:none">
+                <input type="hidden" name="accessKey" value="f80e443f-aa31-4405-8887-e4d5fa83a73c">
+                <input type="hidden" name="subject" value="ラジオのお便り" />
+                <input type="hidden" name="replyTo" value="k22AA020@st.kyusan-u.ac.jp">
+                <input type="hidden" name="redirectTo" value="https://nanopi8788.github.io/nanopi/thanks.html">
+                <input type="submit" value="おくる" />
+            </form>
+ 
         </div>
 
         <div class="footer">
 
-            <div class="fotter-logo">なんも書くことない</div>
+            <div class="fotter-logo">不定期でやるよ</div>
 
             <div class="fotter-list">
                 <ul>
-                    <li>いぬ</li>
-                    <li>ねこ</li>
-                    <li>もるもっと</li>
+                    <li>いっぱい</li>
+                    <li>送ってください</li>
+                    <li>嫌がらせのように</li>
                 </ul>
             </div>
 
