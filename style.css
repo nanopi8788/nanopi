@@ -38,6 +38,10 @@ li{
     width: 1600px;
 }
 
+.img{
+    padding: 0px;
+}
+
 .contact-form {
     padding-top: 0px;
     background-color: #95cafe;
