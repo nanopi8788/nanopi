@@ -17,6 +17,7 @@ li{
 .header{
     background-color: #ff80bf;
     height: 90px;
+    width:1200px
 }
 
 .header-logo{
@@ -34,13 +35,14 @@ li{
 .main{
     background-color:  #000;
     height: 650px;
-
+    width: 1200px
 }
 
 .contact-form {
     padding-top: 0px;
     background-color: #95cafe;
     height: 1000px;
+    width: 1200px
   }
   
   input,textarea{
@@ -61,7 +63,7 @@ li{
 .footer{
     background-color:  #e71880;
     height: 250px;
-
+    width:1200px
 }
 
 .fotter-logo{
