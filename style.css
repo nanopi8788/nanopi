@@ -4,7 +4,6 @@ body{
 
 li{
     list-style: none;
-    color:fff0f5;
 }
 
 .twitter{
@@ -71,8 +70,4 @@ li{
 .fotter-logo{
     padding: 20px 40px 20px 40px;
     color: #fff0f5;
-}
-
-.footer-li{
-    color: #ffffff;
 }
