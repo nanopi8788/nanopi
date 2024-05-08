@@ -2,71 +2,39 @@ body{
     font-family: "CapieN Medium";
 }
 
-li{
-    list-style: none;
-}
-
-.twitter{
-    padding-top: 20px;
-}
-
-.insta{
-    padding-bottom: 20px;
-}
-
 .header{
-    background-color: #ff80bf;
-    height: 90px;
-    width: 2000px;
+    background-color: #caf0ff;
+    height: 167px;
+    width: 1920px;
 }
 
-.header-logo{
-    float: left;
-    font-size: 40px;
-    padding: 20px 40px 20px 40px;
+.header2{
+    background-color: #caf0ff;
+    height: 1260px;
+    width: 1920px;
 }
 
-.header-logo span{
-    color:rgb(255, 255, 255)
+*{
+    margin: 0;
+    padding: 0;
 }
-
-
 
 .main{
-    background-color:  #000;
-    height: 650px;
-    width: 2000px;
+    background-color:  #ffdbfa;
+    height: 250px;
+    width: 1920px;
 }
 
-
-.contact-form {
-    padding-top: 0px;
-    background-color: #95cafe;
+.main2{
+    background-color:  #ffdbfa;
     height: 1000px;
-    width: 2000px;
-  }
-  
-  input,textarea{
-   width:400px;
-   margin-top:10px;
-   margin-bottom:30px;
-   padding:20px;
-   font-size:18px;
-   border:1px solid #dee7ec;
-  }
-  
-  
-  .contact-submit{
-    background-color:#dee7ec;
-    color:#889eab;
-  }
+    width: 1920px;
+}
+
 
 .footer{
-    background-color:  #e71880;
-    height: 400px;
-    width: 2000px;
+    background-color:  #ccc1ff;
+    height: 250px;
+    width: 1920px;
 }
 
-.fotter-logo{
-    padding: 20px 40px 20px 40px;
-}
